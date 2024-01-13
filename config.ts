@@ -21,9 +21,9 @@ type Config = {
 };
 
 export const config: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  selector: `.docs-builder-container`,
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "https://docs.openinterpreter.com/**",
+  match: "https://docs.openinterpreter.com/**",
+  selector: '/**',
+  maxPagesToCrawl: 5000,
+  outputFileName: "open_interpreter.json",
 };
